@@ -14,7 +14,7 @@ spec:
         app: gitopsapp
     spec:
       containers:
-        - image: fleatbnp/express-microservice:abb18cc
+        - image: fleatbnp/express-microservice:d4faee2
           name: gitopsapp
           ports:
             - containerPort: 3000
