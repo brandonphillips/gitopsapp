@@ -14,7 +14,7 @@ spec:
         app: gitopsapp
     spec:
       containers:
-        - image: gcr/express-microservice:def4f8b
+        - image: argocd/express-microservice:9828747
           name: gitopsapp
           ports:
             - containerPort: 3000
