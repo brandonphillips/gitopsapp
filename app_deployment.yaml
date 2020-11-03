@@ -14,7 +14,7 @@ spec:
         app: gitopsapp
     spec:
       containers:
-        - image: salesdemocf/express-microservice:d64e73f
+        - image: salesdemocf/express-microservice:ab681c7
           name: gitopsapp
           ports:
             - containerPort: 3000
